@@ -1,0 +1,241 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&family=Poppins:wght@300;400;500&display=swap");
+
+* {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+  transition: all 0.2s;
+}
+
+body {
+  color: #0a0a0a;
+  background-color: #fafafa;
+}
+
+.container {
+  width: 1150px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+header {
+  width: 98%;
+  display: flex;
+  justify-content: space-between;
+}
+.supertape-logo {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 0;
+  width: 9rem;
+  margin: 1.5rem 0 0 1.2rem;
+  color: #0a0a0a;
+}
+
+.supertape-logo:hover {
+  color: rgb(124, 68, 252);
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 1.5rem 0 0 1.2rem;
+  font-size: 1.1rem;
+}
+
+.sign-up {
+  border: 2px solid rgb(124, 68, 252);
+  border-radius: 8px;
+  padding: 2px 6px;
+}
+
+.sign-up:hover {
+  border: 2px solid #0a0a0a;
+  color: #0a0a0a;
+}
+
+nav a {
+  color: rgb(124, 68, 252);
+}
+
+#Login:hover {
+  color: #0a0a0a;
+}
+
+h1 {
+  font-weight: 300;
+  line-height: 88px;
+  font-size: 70px;
+  margin-top: 9rem;
+}
+
+.sections-1 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sections-2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 7rem;
+  color: #fafafa;
+  cursor: pointer;
+}
+
+.main-text {
+  width: 75%;
+  display: flex;
+  background-color: #7c44fc;
+  margin-right: 2px;
+  font-size: 18px;
+  padding: 1.8rem 1rem;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.get-started {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #7c44fc;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.get-started p:first-child {
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36px;
+}
+
+.get-started p:last-child {
+  font-size: 14px;
+  font-weight: 200;
+  letter-spacing: 1px;
+  opacity: 0.8;
+  line-height: 20px;
+  text-transform: uppercase;
+  padding-top: 10px;
+}
+
+.sign-up-logo {
+  margin-right: 2rem;
+  padding-left: 10px;
+}
+
+.sections-2 a {
+  color: #fafafa;
+}
+
+.sections-2 .main-text:hover,
+.sections-2 .get-started:hover {
+  background-color: #0a0a0a;
+}
+
+.sections-2 .hover {
+  display: flex;
+}
+
+.page {
+  margin-top: 5rem;
+  background-color: #0a0a0a;
+  width: 100%;
+  height: 900px;
+  border-radius: 10px;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+}
+.spotify {
+  width: 300px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 8rem;
+}
+
+.page p {
+  color: #a3a3a3;
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+  font-size: 18px;
+}
+
+.page p:last-child {
+  font-size: 15px;
+  color: #525252;
+  margin: 5px 0 0 0;
+  letter-spacing: 0.8px;
+}
+
+.advertisment {
+  width: 100%;
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #0a0a0a;
+  border-radius: 10px;
+  margin-top: 5rem;
+}
+
+.advertisment h2 {
+  font-size: ;
+}
+.main-ad {
+}
+
+.diagram {
+  width: 1000px;
+  margin-top: 16.5rem;
+}
+
+.supertape-sits {
+  margin-top: 5rem;
+  background-color: #0a0a0a;
+  width: 100%;
+  height: 900px;
+  border-radius: 10px;
+}
+
+.flex-site {
+  display: flex;
+  justify-content: center;
+}
+.sits {
+  width: 800px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 8rem;
+}
+
+.supertape-sits p {
+  color: #a3a3a3;
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+  font-size: 18px;
+}
+
+.supertape-sits p:last-child {
+  font-size: 15px;
+  color: #525252;
+  margin: 5px 0 0 0;
+  letter-spacing: 0.8px;
+}
