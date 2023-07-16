@@ -43,7 +43,12 @@ header {
   color: rgb(124, 68, 252);
 }
 
-nav ul li {
+header {
+  position: sticky;
+  top: 0;
+}
+
+header nav ul li {
   display: inline-block;
   margin: 1.5rem 0 0 1.2rem;
   font-size: 1.1rem;
@@ -126,6 +131,8 @@ h1 {
   line-height: 20px;
   text-transform: uppercase;
   padding-top: 10px;
+  display: flex;
+  justify-content: center;
 }
 
 .sign-up-logo {
@@ -137,8 +144,8 @@ h1 {
   color: #fafafa;
 }
 
-.sections-2 .main-text:hover,
-.sections-2 .get-started:hover {
+.sections-2:hover .main-text,
+.sections-2:hover .get-started {
   background-color: #0a0a0a;
 }
 
@@ -231,7 +238,7 @@ h1 {
   justify-content: center;
 }
 .sits {
-  width: 800px;
+  width: 780px;
   height: auto;
   display: flex;
   justify-content: center;
@@ -260,6 +267,7 @@ h1 {
   border: 2px solid #0a0a0a;
   border-radius: 10px;
   margin-top: 5rem;
+  position: relative;
 }
 
 .promote-header h2 {
@@ -293,6 +301,14 @@ h1 {
   padding: 1rem;
   border-left: 2px solid #0a0a0a;
 }
+
+/* .promote .table span::before {
+  border-left: 2px solid #0a0a0a;
+  content: "";
+  height: 8%;
+  left: 11rem;
+  position: absolute;
+} */
 
 .promote .table i {
   align-items: center;
@@ -334,7 +350,7 @@ h1 {
   justify-content: center;
 }
 .app {
-  width: 800px;
+  width: 750px;
   height: auto;
   display: flex;
   justify-content: center;
@@ -436,6 +452,8 @@ p {
   display: flex;
   justify-content: space-around;
   background-color: #0a0a0a;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
   color: #fafafa;
   padding: 4rem 3rem;
 }
@@ -484,11 +502,16 @@ p {
 }
 
 .free-trial {
-  height: 600px;
+  height: 700px;
   margin-top: 5rem;
   background-color: #0a0a0a;
   border-radius: 10px;
-  color: #fafafa;
+  color: #eeeeee;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 8rem;
 }
 
 .free-trial-desc h2 {
@@ -500,13 +523,101 @@ p {
   font-size: 18px;
   font-weight: 400;
   line-height: 25px;
+  color: #7f7f7f;
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.price {
+  margin-top: 3rem;
 }
 
 .price-title {
   font-size: 18px;
   font-weight: 400;
 }
-.price:not(:last-child) {
+.price p:not(:last-child) {
   font-size: 36px;
   font-weight: 300;
+}
+
+.price p:last-child {
+  color: #535353;
+  margin-top: 1rem;
+}
+
+.free-trial-desc {
+  margin-top: 3rem;
+}
+
+.price-title h3 {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  border-bottom: 1px solid #fafafa;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.price-table {
+  width: 550px;
+  height: 250px;
+  border: 1px solid #fafafa;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.free-trial a {
+  background-color: #7c44fc;
+  color: #e3dafb;
+  font-size: 18px;
+  font-weight: 400;
+  display: inline-block;
+  padding: 1rem 5rem;
+  border-radius: 10px;
+}
+
+.free-trial a:hover {
+  background-color: #fafafa;
+  color: #7c44fc;
+}
+
+.price p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sec-nav {
+  color: #7c44fc;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.sec-nav .nav-right {
+  display: flex;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  padding: 1rem;
+}
+
+.sec-nav .nav-left {
+  display: flex;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  padding: 1rem;
+}
+
+.nav-right a:hover {
+  color: #0a0a0a;
+}
+
+.nav-left a:hover {
+  color: #0a0a0a;
 }
