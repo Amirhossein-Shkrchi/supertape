@@ -13,7 +13,7 @@ body {
 }
 
 .container {
-  width: 1150px;
+  max-width: 1150px;
   margin: 0 auto;
 }
 
@@ -298,22 +298,29 @@ h1 {
 
 .promote .table span {
   display: inline-block;
+  width: 12%;
+}
+
+.promote .table span:first-child {
+  text-align: center;
+}
+
+.promote .table span:last-child {
+  display: inline-block;
   padding: 1rem;
   border-left: 2px solid #0a0a0a;
 }
 
-/* .promote .table span::before {
-  border-left: 2px solid #0a0a0a;
-  content: "";
-  height: 8%;
-  left: 11rem;
-  position: absolute;
-} */
-
 .promote .table i {
   align-items: center;
-  padding-left: 1rem;
-  padding-right: 10px;
+}
+
+#apple-m {
+  white-space: nowrap;
+}
+
+#big-cartel {
+  white-space: nowrap;
 }
 
 .first-coulmn {
